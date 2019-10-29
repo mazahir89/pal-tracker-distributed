@@ -10,3 +10,4 @@ applications:
     MANAGEMENT_ENDPOINT_HEALTH_SHOWDETAILS: 'always'
   services:
   - tracker-service-registry
+  - tracker-circuit-breaker-dashboard
