@@ -10,7 +10,7 @@ applications:
     MANAGEMENT_ENDPOINT_HEALTH_SHOWDETAILS: 'always'
     GRANT_TYPE: client_credentials
   services:
-    - tracker-backlog-database
+    - tracker-timesheets-database
     - tracker-service-registry
     - tracker-circuit-breaker-dashboard
     - tracker-sso
